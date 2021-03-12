@@ -1,0 +1,9 @@
+import os
+
+def addToAlbum(items, specified_album):
+    os.system("mkdir "+specified_album)
+    for item in items:
+        os.system("mv "+item+" "+specified_album+"/"+"item")
+
+
+
